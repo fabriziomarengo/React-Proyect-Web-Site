@@ -1,0 +1,332 @@
+#root {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+  
+}
+
+body {
+  margin: 0;
+  
+}
+
+.error {
+  color: red
+}
+
+.claro {
+  background-color: rgb(250, 249, 224);
+  color: #1eb08c;
+  
+}
+.oscuro {
+  background-color: #232726;
+  color: white;
+  
+}
+.claro button{
+  background-color: white;
+  color: black;
+  margin: 10px 10px;
+  
+}
+.oscuro button{
+  background-color:rgb(4, 0, 0);
+  color: white;
+  margin: 10px 10px;
+}
+
+ .claro .card {
+  background-color: #a2dbcd;
+  width: 20%;
+  color: black;
+  font-size: 20px;
+  border: 1px solid #1eb08c;
+  margin: 10px 10px;
+  border-radius: 100px;
+}
+.oscuro .card{
+  background-color:#1eb08c;
+  width: 20%;
+  color: rgb(253, 248, 248);
+  font-size: 20px;
+  border: 3px solid #1eb08c;
+  margin: 10px 10px;
+  border-radius: 100px;
+}
+
+.cartasclaro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10%;
+  margin-top: 3%;
+}
+
+.cartasoscuro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10%;
+  margin-top: 100px;
+  
+}
+.card img {
+  max-width: 100%;
+  height: auto; 
+  margin-bottom: 10px; 
+}
+
+.contact{
+      height: 100vh;;
+    }
+
+
+
+.claro .favs{
+   height: 100vh;
+   color: #000;
+  }
+
+
+.oscuro .favs{
+   height: 100vh;
+   color: #fdf7f7;
+}
+
+
+.claro .navbar {
+  background-color: #1eb08c; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.oscuro .navbar {
+  background-color:rgb(2, 63, 50);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+
+.claro .tema-boton { 
+  width: 50px;
+  height: 50px; 
+  border-radius: 50%;
+  border-color: #ffffff;
+  background-image:url(../public/images/modo.png);
+  background-color: #1eb08c; 
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+
+}
+
+.claro .tema-boton:hover {
+  background-color: #9da8a7; 
+  transition: color 0.3s, border-color 0.3s;
+}
+
+
+.oscuro .tema-boton { 
+  width: 50px;
+  height: 50px; 
+  border-radius: 50%;
+  border-color: #ffffff;
+  background-image:url(../public/images/modo.png);
+  background-color: #c7e6e1; 
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+
+.oscuro .tema-boton:hover {
+  background-color: #f9fbfb; 
+  transition: color 0.3s, border-color 0.3s;
+}
+
+
+.navbar-list {
+   display: flex;
+   list-style:none;
+   text-decoration: none;
+   margin: 0;
+   padding: 0;
+   
+  
+}
+
+.navbar-item {
+  margin-right: 50px;
+
+}
+
+
+.navbar-item a {
+
+  padding: 10px 20px; 
+  border: 2px solid white; 
+  border-radius: 40%; 
+  text-decoration: none;
+  color: white; 
+  font-weight: bold;
+  transition: color 0.3s, border-color 0.3s; 
+}
+
+.navbar-item a:hover {
+  color: #0edcac; 
+  border-color: #0edcac; 
+}
+
+.claro footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1eb08c;  
+}
+
+.oscuro footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(2, 63, 50);
+}
+
+.card {
+  padding: 2em;
+}
+
+
+.claro .form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.oscuro .form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #5d5d5d;
+  color: #1eb08c;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+
+}
+
+.my-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.my-form input[type="text"],
+.my-form input[type="email"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  
+  border: 1px solid #ccc;
+  background-color: #95b7af;
+  border-radius: 30%;
+}
+
+.my-form input[type="submit"] {
+  background-color: #1eb08c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40%;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.success {
+  color: rgb(49, 191, 49);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+.claro .link-button{
+  color: #000000;
+}
+.oscuro .link-button{
+  color: #f5f5f5;
+}
+
+
+
+.footer-container {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+
+}
+
+.footer-item {
+  flex: 1;
+  padding: 10px; 
+}
+
+img {
+  max-width: 10%;
+  height: auto; 
+  display: block; 
+  margin: 0 auto;
+}
+
+.fav{
+  width: 50%; 
+  height: auto;
+}
+
+.fav-button{
+  border: none;
+  border-radius: 100px;
+  padding: 10px 20px;
+  width: 50%; 
+  height: auto;
+  background: #f6f7f7;
+}
+.oscuro .fav-button{
+  background: #ffffff;
+}
+
+
+.claro .detalles{
+background:local;
+height: 600px;
+}
+
+.oscuro .detalles{
+background:local;
+height: 600px;
+}
+
+
+h1{
+font-size: 4em;
+}
+
+
+.claro .nav-title{
+color: #000000;
+}
+.oscuro .nav-title{
+color: #ffffff;
+}
